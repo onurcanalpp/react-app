@@ -1,17 +1,13 @@
 
-
+import Header from './components/Header'
 
 function App() {
-    const title = "User App";
-    const isAuthorized = false;
-    
-    
   return (
     <div className="container">
-        <h4>User App</h4>
-        <hr />
+        <Header />
     </div>
   );
 }
+
 
 export default App;
